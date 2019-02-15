@@ -86,6 +86,9 @@ TARGET_USERIMAGES_USE_EXT4 := true
 # Vendor separation
 TARGET_COPY_OUT_VENDOR := system/vendor
 
+# Security patch level - T580XXU4CRK5
+VENDOR_SECURITY_PATCH := 2018-11-01
+
 # Bluetooth
 BOARD_HAVE_BLUETOOTH := true
 BOARD_HAVE_BLUETOOTH_QCOM := true
