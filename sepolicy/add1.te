@@ -16,9 +16,9 @@ allow hal_sensors_default sysfs:dir { open read };
 
 #============= init ==============
 allow init proc:file { open setattr write };
-allow init sysfs:file { open setattr write };
+allow init sysfs:file { setattr };
 allow init sysfs_wlan_fwpath:file setattr;
-allow init vendor_file:file execute_no_trans;
+#allow init vendor_file:file execute_no_trans;
 
 #============= system_server ==============
 allow system_server proc:file { open read };
@@ -26,7 +26,7 @@ allow system_server proc:file { open read };
 
 
 #============= cbd ==============
-allow cbd vendor_file:file entrypoint;
+#allow cbd vendor_file:file entrypoint;
 
 #============= hal_sensors_default ==============
 allow hal_sensors_default sysfs:file getattr;
