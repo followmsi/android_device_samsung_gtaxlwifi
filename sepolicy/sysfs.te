@@ -19,6 +19,6 @@ allow webview_zygote sysfs:file { getattr open read };
 
 # Untrusted apps
 allow untrusted_app sysfs:dir { getattr open read };
-allow untrusted_app sysfs:file { getattr };
-allow untrusted_app_25 sysfs:file { getattr };
+allow untrusted_app sysfs:file { getattr open read };
+allow untrusted_app_25 sysfs:file { getattr open read };
 allow untrusted_app_25 sysfs:dir { getattr open read };

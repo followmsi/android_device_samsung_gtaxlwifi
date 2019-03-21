@@ -17,7 +17,7 @@ allow hwservicemanager gpsd_exec:file getattr;
 allow idmap gpsd_exec:file getattr;
 
 #============= init ==============
-#allow init hal_gnss_hwservice:hwservice_manager add;
+allow init hal_gnss_hwservice:hwservice_manager add;
 allow init hwservicemanager:binder call;
 allow init system_server:binder call;
 
@@ -34,13 +34,13 @@ allow servicemanager gpsd_exec:file getattr;
 allow shell gpsd_exec:file getattr;
 
 #============= system_server ==============
-#allow system_server init:binder call;
+allow system_server init:binder call;
 
 #============= tzdatacheck ==============
 allow tzdatacheck gpsd_exec:file getattr;
 
 #============= untrusted_app_25 ==============
-#allow untrusted_app_25 proc_vmstat:file open;
+allow untrusted_app_25 proc_vmstat:file open;
 
 #============= vdc ==============
 allow vdc gpsd_exec:file getattr;
