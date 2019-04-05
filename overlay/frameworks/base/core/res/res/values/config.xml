@@ -215,9 +215,9 @@
     <bool name="config_powerDecoupleInteractiveModeFromDisplay">true</bool>
 
     <!-- Allow screen mirroring/miracast -->
-    <!-- <bool name="config_enableWifiDisplay">true</bool> -->
+    <bool name="config_enableWifiDisplay">true</bool>
     <!-- Our gralloc has support for protected buffers -->
-    <!-- <bool name="config_wifiDisplaySupportsProtectedBuffers">false</bool> -->
+    <bool name="config_wifiDisplaySupportsProtectedBuffers">false</bool>
 
     <!-- The device supports freeform window management -->
     <bool name="config_freeformWindowManagement">true</bool>
