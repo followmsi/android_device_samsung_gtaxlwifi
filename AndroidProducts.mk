@@ -14,7 +14,11 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
+    $(LOCAL_DIR)/rr_gtaxlwifi.mk \
     $(LOCAL_DIR)/lineage_gtaxlwifi.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_gtaxlwifi-userdebug
+    rr_gtaxlwifi-userdebug \
+    rr_gtaxlwifi-eng \
+    lineage_gtaxlwifi-userdebug \
+    lineage_gtaxlwifi-eng
