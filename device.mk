@@ -124,8 +124,8 @@ PRODUCT_PACKAGES += \
     android.hardware.cas@1.1-service
 
 # Doze
-#PRODUCT_PACKAGES += \
-#    SamsungDoze
+PRODUCT_PACKAGES += \
+    SamsungDoze
 
 # Touch features
 PRODUCT_PACKAGES += \
