@@ -17,3 +17,19 @@ PRODUCT_MODEL := SM-T580
 PRODUCT_NAME := omni_gtaxlwifi
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
+
+ifeq ($(TARGET_PREBUILT_KERNEL),)
+LOCAL_KERNEL := device/samsung/gtaxlwifi/Image
+else
+LOCAL_KERNEL := $(TARGET_PREBUILT_KERNEL)
+endif
+
+ifeq ($(TARGET_PREBUILT_DTB),)
+LOCAL_KERNEL_DTB := device/samsung/gtaxlwifi/dtb.img
+else
+LOCAL_KERNEL_DTB := $(TARGET_PREBUILT_DTB)
+endif
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_KERNEL):kernel \
+    $(LOCAL_KERNEL_DTB):dt.img

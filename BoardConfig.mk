@@ -46,6 +46,8 @@ BOARD_FLASH_BLOCK_SIZE := 131072
 TARGET_PREBUILT_KERNEL := device/samsung/gtaxlwifi/Image
 TARGET_PREBUILT_DTB := device/samsung/gtaxlwifi/dtb.img
 
+BOARD_KERNEL_SEPARATED_DT := true
+
 # Use this flag if the board has a ext4 partition larger than 2gb
 BOARD_HAS_LARGE_FILESYSTEM := true
 TARGET_USERIMAGES_USE_EXT4 := true
