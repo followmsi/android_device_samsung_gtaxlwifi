@@ -3,6 +3,6 @@ ro.chipname=exynos7870
 ro.arch=exynos7870
 ro.boot.bootdevice=13540000.dwmmc0
 ro.lcd_min_brightness=0
-ro.lcd_brightness=162
+ro.lcd_brightness=3
 ro.sf.lcd_density=480
 persist.sys.usb.config=mtp,adb
