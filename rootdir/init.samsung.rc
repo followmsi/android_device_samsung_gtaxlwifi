@@ -147,7 +147,7 @@ on post-fs-data
     chmod 0775 /data/misc/radio
 
 # [ SEC_SELINUX_PORTING_COMMON
-    mkdir /data/misc/audit 0775 audit system
+    mkdir /data/misc/audit 0775 system system
 
     start auditd
 # ] SEC_SELINUX_PORTING_COMMON
