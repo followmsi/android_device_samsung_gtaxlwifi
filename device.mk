@@ -124,8 +124,8 @@ PRODUCT_PACKAGES += \
     android.hardware.keymaster@4.0-service
 
 # Cas
-PRODUCT_PACKAGES += \
-    android.hardware.cas@1.1-service
+#PRODUCT_PACKAGES += \
+#    android.hardware.cas@1.1-service
 
 # Doze
 #PRODUCT_PACKAGES += \
