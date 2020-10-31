@@ -19,7 +19,9 @@ type sysfs_multipdp_writable, fs_type, sysfs_type, mlstrustedobject;
 
 allow sysfs_type tmpfs:filesystem associate;
 
-type biometrics_data_file, file_type;
+type biometrics_data_file, core_data_file_type, data_file_type, file_type;
+
+type camera_device_sysfs, sysfs_type, file_type;
 
 type sysinit, file_type;
 
