@@ -19,8 +19,6 @@ LOCAL_PATH := device/samsung/gtaxlwifi
 # temporary
 BUILD_BROKEN_DUP_RULES := true
 
-PRODUCT_ENFORCE_VINTF_MANIFEST_OVERRIDE := true
-
 # Include path
 TARGET_SPECIFIC_HEADER_PATH := $(LOCAL_PATH)/include
 
