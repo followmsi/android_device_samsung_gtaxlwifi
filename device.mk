@@ -288,9 +288,9 @@ PRODUCT_PACKAGES += \
 
 # ADB and USB configuration
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    persist.sys.usb.config=none \
-    ro.adb.secure=1 \
-    ro.secure=1
+    persist.sys.usb.config=adb \
+    ro.adb.secure=0 \
+    ro.secure=0
 
 # Offline charging
 PRODUCT_PACKAGES += \
