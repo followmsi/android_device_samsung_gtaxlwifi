@@ -50,6 +50,10 @@ define build-dtimage-target
     $(hide) chmod a+r $@
 endef
 
+$(INSTALLED_DTIMAGE_TARGET): $(DTBTOOL) $(INSTALLED_KERNEL_TARGET)
+	$(build-dtimage-target)
+	@echo "Made DT image: $@"
+
 .PHONY: dtimage
 dtimage: $(INSTALLED_DTIMAGE_TARGET)
 

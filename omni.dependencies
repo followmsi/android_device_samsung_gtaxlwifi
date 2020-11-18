@@ -1,2 +1,14 @@
 [
+	{
+		"remote":"github",
+		"repository":"TALUAtGitHub/android_kernel_samsung_exynos7870",
+		"target_path":"kernel/samsung/gtaxl",
+		"revision":"android-9.0-twrp"
+	},
+	{
+		"remote":"github",
+		"repository":"TeamWin/android_hardware_samsung",
+		"target_path":"hardware/samsung",
+		"revision":"lineage-16.0"
+	}		
 ]

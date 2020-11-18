@@ -10,7 +10,3 @@ PRODUCT_MODEL := SM-T580
 PRODUCT_NAME := omni_gtaxlwifi
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
-
-PRODUCT_COPY_FILES += \
-    device/samsung/gtaxlwifi/Image:kernel \
-    device/samsung/gtaxlwifi/dtb.img:dt.img
