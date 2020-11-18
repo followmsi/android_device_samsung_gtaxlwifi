@@ -58,6 +58,7 @@ TW_NO_REBOOT_BOOTLOADER := true
 TW_HAS_DOWNLOAD_MODE := true
 TW_NO_EXFAT_FUSE := true
 TW_MTP_DEVICE := "/dev/mtp_usb"
+TW_NO_USB_STORAGE := true
 TW_EXCLUDE_SUPERSU := true
 
 # Color fix
